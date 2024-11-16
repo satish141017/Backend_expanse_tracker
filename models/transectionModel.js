@@ -32,6 +32,6 @@ const transectionSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
+//kk
 const transectionModel = mongoose.model("transections", transectionSchema);
 module.exports = transectionModel;
