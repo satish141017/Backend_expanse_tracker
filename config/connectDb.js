@@ -8,5 +8,5 @@ const connectDb = async () => {
     console.log(`${error}`.bgRed);
   }
 };
-
+// exported db
 module.exports = connectDb;
