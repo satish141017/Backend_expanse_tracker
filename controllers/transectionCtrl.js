@@ -50,7 +50,7 @@ const editTransection = async (req, res) => {
 
 const addTransection = async (req, res) => {
   try {
-    // const newTransection = new transectionModel(req.body);
+    // const newTransection = new transectionModel(req.body);kk
     const newTransection = new transectionModel(req.body);
     await newTransection.save();
     res.status(201).send("Transection Created");
